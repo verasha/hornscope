@@ -10,14 +10,14 @@ On **2026-10-23** we detected Galactic HI in four 5-minute pointings and derived
 
 | Recording | Galactic l, b | HI peak velocity | Notes |
 |---|---|---|---|
-| mw1 | 53°, +0° | +8 km/s, tail to ~+75 | strong (S/N ≈ 20); gives **V ≈ 250 km/s at R ≈ 6.6 kpc** |
-| mw2 | 39°, −10° | +16 km/s | weak (S/N ≈ 5); 10° off the Galactic plane |
-| mw3 | 95°, +3° | −5 km/s, tail to ~−50 | outer Galaxy; negative velocities as expected |
-| mw4 | 5°, −4° | +13 km/s | toward the Galactic centre; strongest peak |
+| mw1 | 53°, +0° | +8 km/s, tail to the DC gap (~+71–88) | S/N ≈ 13 per channel; gives **V ≈ 256–272 km/s at R ≈ 6.6 kpc** |
+| mw2 | 39°, −10° | +16 km/s, tail to the DC gap (~+65–83) | S/N ≈ 12 per channel; gives **V ≈ 210–229 km/s at R ≈ 5.2 kpc** |
+| mw3 | 95°, +3° | −5 km/s, tail to ~−50 | S/N ≈ 10 per channel; outer Galaxy, negative velocities as expected |
+| mw4 | 5°, −4° | +13 km/s | S/N ≈ 14 per channel; toward the Galactic centre |
 
 ![Rotation curve](analysis/rotation_curve.png)
 
-Only mw1 satisfies the tangent-point method's assumptions (on the plane, 0° < l < 90°, outside the bar). The other points are shown for comparison. See [`analysis/`](analysis/) for details.
+mw1 and mw2 give rotation-curve points (filled). mw2 is centred 10° below the plane, but its ~20° beam still reaches the plane, so it carries a larger uncertainty. mw3 (l > 90°, no tangent point) and mw4 (Galactic bar region) don't satisfy the tangent-point method's assumptions and are shown for comparison only (hollow). For both mw1 and mw2 the tangent edge falls inside the gap left by the SDR's DC spike, which sets the size of the vertical error bars. See [`analysis/`](analysis/) for details.
 
 ## Hardware
 
