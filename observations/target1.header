@@ -1,0 +1,13 @@
+mjd=61336.29171343576
+dev_args=uhd,type=b200
+rf_gain=30.0
+if_gain=0.0
+bb_gain=0.0
+frequency=1420000000.0
+bandwidth=2400000.0
+channels=2048
+t_sample=1.0
+duration=300.0
+loc=
+ra_dec=
+az_alt=
