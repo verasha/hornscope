@@ -1,0 +1,5 @@
+label,start_local_UTC+8,azimuth_deg,altitude_deg,reference
+mw1,15:36,65,45,ground1
+mw2,15:48,90,48,ground1
+mw3,16:05,33,17,ground1
+mw4,16:25,160,60,ground1
